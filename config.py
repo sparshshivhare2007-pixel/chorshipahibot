@@ -4,11 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+MONGO_URI = os.getenv("MONGO_URI")
 
 MAX_PLAYERS = 4
-TOTAL_ROUNDS = 10
-
-POINTS = {
-    "correct_guess": 1000,
-    "wrong_guess": 500
-}
+TOTAL_ROUNDS = 20
+RAJA_POINTS = 1000
